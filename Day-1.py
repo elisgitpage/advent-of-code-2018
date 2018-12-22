@@ -15,7 +15,7 @@ counter = 0
 freq_change = 0
 for word in input_lines:
     freq_change = int(word)
-    print('Current frequency {0}, change of {1}; resulting frequency'.format(counter, freq_change), end="")
+    print('Current frequency {0}, change of {1}; resulting frequency'.format(counter, freq_change), end = " ")
     counter += freq_change
     print(" " + str(counter))
 
