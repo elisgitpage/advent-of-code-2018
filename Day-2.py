@@ -33,34 +33,6 @@ print('checksum23: ' + str(count2 * count3))
 print('input_lines counter:' + str(input_lines.__len__()))
 
 
-'''
-
-match_2 = re.compile(r'^\w*?(\w)[^\1]*\1[^\1]*$')
-counter2 = 0
-match_3 = re.compile(r'^\w*?(\w)[^\1]*\1[^\1]*\1[^\1]*$')
-counter3 = 0
-for line in input_lines:
-    thisMatch2 = match_2.match(line)
-
-    if thisMatch2 is not None:
-        # print(thisMatch2)
-        # print('letter with 2 matches: ' + thisMatch2.group(1))
-        counter2 += 1
-
-for line in input_lines:
-    thisMatch3 = match_3.match(line)
-
-    if thisMatch3 is not None:
-        print(thisMatch3)
-        print('letter with 3 matches: ' + thisMatch3.group(1))
-        counter3 += 1
-
-print('counter3: ' + str(counter3))
-print('counter2: ' + str(counter2))
-print('checksum23: ' + str(counter2 * counter3))
-print('input_lines counter:' + str(input_lines.__len__()))
-'''
-
 #TODO Part 2:
 
 # TODO create function to check if 2 IDs are 1 character off
