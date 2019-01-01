@@ -82,6 +82,7 @@ def most_slept_min(guard_naps):
             max_slept = slept
     return max_min, max_slept
 
+
 sleepiest = 0
 nap_max = 0
 this_total = 0
